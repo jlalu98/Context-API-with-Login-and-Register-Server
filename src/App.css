@@ -1,0 +1,110 @@
+body {
+  background-color: #f0c8ee;
+  padding: 20px;
+  margin: 0;
+  background-image: url(8ba86017709af3482ba15c5a28ed1764.jpg);
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+#del-button,#add-button{
+  border: none;
+  border-radius: 20px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width:fit-content;
+  font-size: 10px;
+}
+.book-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  height: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 20px;
+  float: left;
+  padding: 5px;
+  color:#000;
+  background-color: white;
+}
+.card{
+  background-color: white;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-content: center;
+  border-radius: 15px;
+  padding: 25px 25px 25px 25px;
+}
+.book-card:hover{
+  opacity: 0.5;
+}
+.price {
+  color:#000;
+  font-size: 22px;
+}
+#img{
+  width:30%;
+}
+#imgDetails{
+  width:20%;
+  align-content: center;
+}
+.form-area{
+  background-color: white;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-content: center;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+.book-form{
+  display: block;
+  text-align: center;
+}
+.book-info{
+  display: inline-block;
+  padding: 15px;
+}
+.grid{
+  display: inline-block;
+  padding: 10px;
+}
+.stars{
+  color: yellow;
+}
